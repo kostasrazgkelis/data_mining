@@ -1,0 +1,28 @@
+urllib3==1.26.4
+xmltodict=0.12.0
+
+"""
+from datetime import date, datetime
+--Will be used in order to filter our search depending on a specific date as required in the task
+
+import traceback
+--Will be used to return 
+
+import urllib3
+--Will be used in order to create the http connection and get the data from the desired URLS
+
+
+import xmltodict
+--Will be used in order to format the data into a data structure that can be later used with ease
+
+import concurrent.futures
+--Will be used in order to install a multithreading enviroment to enhance the speed and reduce the complexity
+of the program
+
+import os
+--Will be used in order to get the number CPUs avaliable to properly make use of them
+
+import csv 
+--WIll be used in order to save the URLs we have exctracted to a file
+
+"""
